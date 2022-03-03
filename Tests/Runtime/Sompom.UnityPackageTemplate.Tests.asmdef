@@ -1,17 +1,21 @@
 {
-    "name": "OmiyaGames.Template.Tests",
+    "name": "Sompom.UnityPackageTemplate.Tests",
     "references": [
-        "OmiyaGames.Template"
+        "UnityEngine.TestRunner",
+        "UnityEditor.TestRunner",
+        "Sompom.UnityPackageTemplate"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
-    "overrideReferences": false,
-    "precompiledReferences": [],
-    "autoReferenced": true,
-    "defineConstraints": [],
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "nunit.framework.dll"
+    ],
+    "autoReferenced": false,
+    "defineConstraints": [
+        "UNITY_INCLUDE_TESTS"
+    ],
     "versionDefines": [],
-    "optionalUnityReferences": [
-        "TestAssemblies"
-    ]
+    "noEngineReferences": false
 }
