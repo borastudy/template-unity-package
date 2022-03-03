@@ -1,7 +1,7 @@
 {
   "name": "com.sompom.unitypackagetemplate",
   "displayName": "Sompom Games - Template Unity Package",
-  "version": "1.0.0-pre.1",
+  "version": "1.0.0-pre.2",
   "unity": "2020.1",
   "unityRelease": "11f1",
   "description": "This is a template package, used as a basis to build a bigger one.",
